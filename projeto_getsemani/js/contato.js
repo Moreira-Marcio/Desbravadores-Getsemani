@@ -24,7 +24,7 @@ var form = document.getElementById("my-form");
         })
       }
     }).catch(error => {
-      status.innerHTML = "Oops! tente novamente form"
+      status.innerHTML = "Oops! tente novamente"
     });
   }
   form.addEventListener("submit", handleSubmit)
