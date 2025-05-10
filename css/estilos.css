@@ -656,15 +656,60 @@ button:focus {
     height: 70vh;
 }
 
-.card-link {
-
-
-    .a {
-        margin-top: 5px;
-        font-size: 1px;
-        height: auto;
-
-
-    }
+.classes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Espaçamento entre os cards */
+    gap: 20px; /* Espaçamento entre os itens */
 
 }
+
+.classes > * {
+    flex: 1 1 calc(33.33% - 20px); /* 3 cards por linha com espaçamento */
+    box-sizing: border-box; /* Inclui padding e border no tamanho total */
+}
+
+.classes img {
+    width: 100%; /* Ajusta a largura para ocupar todo o espaço do card */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 150px; /* Define um tamanho máximo para a largura */
+    max-height: 150px; /* Define um tamanho máximo para a altura */
+    object-fit: cover; /* Garante que a imagem se ajuste ao espaço sem distorção */
+    border-radius: 10px; /* Adiciona bordas arredondadas, se necessário */
+    align-items: center;
+    
+}
+
+.classes > * {
+    flex: 1 1 calc(33.33% - 20px); /* 3 cards por linha com espaçamento */
+    box-sizing: border-box; /* Inclui padding e border no tamanho total */
+    border: 3px solid var(--cor-container); /* Borda mais grossa */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 15px; /* Espaçamento interno */
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    gap: 10px; /* Espaçamento entre os elementos internos */
+}
+
+.classes h3 {
+    font-size: 1.5rem; /* Tamanho do título */
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.classes h4 {
+    font-size: 1.2rem; /* Tamanho do subtítulo */
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+    color: gray; /* Cor do subtítulo */
+}
+
+.classes p {
+    font-size: 1rem; /* Tamanho do texto */
+    text-align: center; /* Centraliza o texto */
+    margin: 0;
+}
+
