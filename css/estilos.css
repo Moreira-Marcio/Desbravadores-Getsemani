@@ -669,27 +669,31 @@ button:focus {
     box-sizing: border-box; /* Inclui padding e border no tamanho total */
 }
 
-.classes img {
+.card-link img {
     width: 100%; /* Ajusta a largura para ocupar todo o espaço do card */
     height: auto; /* Mantém a proporção da imagem */
     max-width: 150px; /* Define um tamanho máximo para a largura */
     max-height: 150px; /* Define um tamanho máximo para a altura */
     object-fit: cover; /* Garante que a imagem se ajuste ao espaço sem distorção */
     border-radius: 10px; /* Adiciona bordas arredondadas, se necessário */
-    align-items: center;
+    align-self: center; /* Centraliza a imagem dentro do card */
+    margin-bottom: 10px; /* Espaçamento entre a imagem e o texto */
+    transition: all .4s; /* Transição suave para o efeito de hover */
     
 }
 
 .classes > * {
-    flex: 1 1 calc(33.33% - 20px); /* 3 cards por linha com espaçamento */
+    flex: 1 1 calc(33.33% - 40px); /* 3 cards por linha com espaçamento */
     box-sizing: border-box; /* Inclui padding e border no tamanho total */
     border: 3px solid var(--cor-container); /* Borda mais grossa */
-    border-radius: 10px; /* Bordas arredondadas */
+    border-radius: 2%; /* Bordas arredondadas */
     padding: 15px; /* Espaçamento interno */
     display: flex;
     flex-direction: column; /* Organiza os elementos verticalmente */
     align-items: center; /* Centraliza os elementos horizontalmente */
     gap: 10px; /* Espaçamento entre os elementos internos */
+    justify-content: space-between;
+    margin:0%
 }
 
 .classes h3 {
@@ -713,3 +717,97 @@ button:focus {
     margin: 0;
 }
 
+
+ h5 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+h6 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--cor-container);
+}
+
+
+.card-title-azul {
+    background-color: #3336e4; /* Amarelo suave */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.card-title-vermelho {
+    background-color: #aa1813; /* Amarelo suave */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.card-title-verde {
+    background-color: #1d741d; /* Amarelo suave */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.card-title-vermelho {
+    background-color: #aa1813; /* Amarelo suave */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.card-title-vermelho {
+    background-color: #aa1813; /* Amarelo suave */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.card-title-cinza {
+    background-color: #726f6f; /* Amarelo suave */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.card-title-roxo {
+    background-color: #611e83; /* Amarelo suave */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.card-title-amarelo {
+    background-color: #ecca09; /* Amarelo suave */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.card-body-azul {
+    background-color: #3336e441;
+}
+
+.card-body-vermelho {
+    background-color: #e9000041;
+}
+
+.card-body-verde {
+    background-color: #0bdb0441;
+}
+
+.card-body-cinza {
+    background-color: #a7a8a741;
+}
+
+.card-body-roxo {
+    background-color: #61068541;
+}
+
+.card-body-amarelo {
+    background-color: #b5c90541;
+}
+
+.card-title-amarelo {
+    
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin: 10px 0; /* Margem superior e inferior */
+}
