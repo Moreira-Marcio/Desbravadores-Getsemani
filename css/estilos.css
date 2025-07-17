@@ -755,30 +755,45 @@ h6 {
     background-color: #aa1813; /* Amarelo suave */
     padding: 10px; /* Adiciona espaçamento interno */
     border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin: 10px 0; /* Margem superior e inferior */
 }
 
 .card-title-vermelho {
     background-color: #aa1813; /* Amarelo suave */
     padding: 10px; /* Adiciona espaçamento interno */
     border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin: 10px 0; /* Margem superior e inferior */
 }
 
 .card-title-cinza {
     background-color: #726f6f; /* Amarelo suave */
     padding: 10px; /* Adiciona espaçamento interno */
     border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin: 10px 0; /* Margem superior e inferior */
 }
 
 .card-title-roxo {
     background-color: #611e83; /* Amarelo suave */
     padding: 10px; /* Adiciona espaçamento interno */
     border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin: 10px 0; /* Margem superior e inferior */
 }
 
 .card-title-amarelo {
     background-color: #ecca09; /* Amarelo suave */
     padding: 10px; /* Adiciona espaçamento interno */
     border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin: 10px 0; /* Margem superior e inferior */
 }
 
 .card-body-azul {
